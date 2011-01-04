@@ -1,0 +1,39 @@
+Answer
+======
+
+1)
+
+Io> 1 + "one"
+
+  Exception: argument 0 to method '+' must be a Number, not a 'Sequence'
+  ---------
+  message '+' in 'Command Line' on line 1
+
+
+Strongly typed.
+
+2)
+
+Io> true and 0
+==> true
+Io> true and 1
+==> true
+Io> true and nil
+==> false
+Io> true and ""
+==> true
+
+3) Car slotNames ???
+
+4) http://www.iolanguage.com/scm/io/docs/IoGuide.html#Syntax-Assignment
+
+Do
+==
+
+1) http://www.iolanguage.com/scm/io/docs/IoGuide.html#Introduction-Running-Scripts
+
+2)
+
+Io> Ding getSlot("drive") call
+VROOOM
+==> VROOOM
